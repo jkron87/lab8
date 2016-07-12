@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Grocery List</title>
+  </head>
+  <body>
+      <div class = "row" id= "top">
+        <div class = "col-md-2">
+        </div>
+        <div class = "col-md-8 text-center">
+        <h1> GrooList </h1>
+        </div>
+        <div class = "col-md-2">
+        </div>
+      </div>
+      <div class="row banner">
+        <p class="text-center">
+        <input type="text" id="item-name" value="Product" />
+        <input type="text" id="price" value="Price" /><br>
+        <button id="add" onclick="addToList(shoppingList); return false">Add</button>
+        <button id="remove">Remove</button>
+      </p>
+      </div>
+      <div class = "row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+
+
+                <ul id="list">
+                </ul>
+                <div id="total">
+                </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-2">
+        </div>
+
+
+    <script src="myscript.js"></script>
+  </body>
+</html>

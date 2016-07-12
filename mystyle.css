@@ -1,0 +1,51 @@
+.banner {
+  background-color: #efff69;
+  height: 100px;
+  padding:5px 0;
+  margin: 0;
+}
+
+#top {
+  background-image: url("images/DD-Stone-Wall-Texture-40128-Preview.jpg");
+  background-size: 200px;
+}
+
+#total {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+  padding: 20px;
+  font-size: 1.25em;
+}
+
+li:nth-child(2n+1) {
+  background-color: #f4f4f4;
+}
+
+ul {
+  padding-left: 0;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 0 15px;
+  font-family: 'Galada', cursive;
+}
+
+input {
+  font-size: 1em;
+  margin: 15px 0;
+
+}
+
+button {
+  font-size: 1em;
+  margin: 0;
+}
